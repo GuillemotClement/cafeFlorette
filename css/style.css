@@ -21,7 +21,8 @@ a{
     text-decoration: none;
 }
 html, body{
-    font-family: var(--font-paragraph)
+    font-family: var(--font-paragraph);
+    color: #222;
 }
 .separator{
     display: block;
@@ -52,6 +53,12 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.container{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
 
 /* HEADER */
 .header{
@@ -108,4 +115,16 @@ p{
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 1.9em;
+}
+
+
+/* FEATURE */
+.features{
+    padding: 100px 0;
+    overflow: auto;
+    text-align: center;
+}
+.feature{
+    float: left;
+    width: 50%;
 }
