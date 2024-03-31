@@ -130,20 +130,21 @@ p{
 
 /* VP */
 .vp{
-    height: 700px;
+    min-height: 700px;
     background: url(../img/cafe1.jpg) center center;
     background-size: cover;
     text-align: center;
 }
 .vp-content{
     max-width: 600px;
+    padding: 20px;
     padding-top: 150px;
     color: white;
     display: block;
     margin: auto;
 }
 .vp-content h1{
-    font-size: 50px;
+    font-size: 3rem;
 }
 .vp-content p{
     font-size: 18px;
@@ -153,7 +154,7 @@ p{
 
 /* FEATURE */
 .features{
-    padding: 100px 0;
+    padding: 100px 20px;
     overflow: auto;
     text-align: center;
 }
@@ -170,7 +171,7 @@ p{
 
 /* RESERVATION */
 .reservation{
-    padding: 100px 0;
+    padding: 100px 20px;
     text-align: center;
 }
 
@@ -209,10 +210,10 @@ footer p{
 .contact{
     padding: 180px 0px;
     min-height: 100vh;
-
 }
 .contact-form-container{
     max-width: 600px;
+    padding: 20px;
     margin: auto;
 }
 .contact-form-container form label{
