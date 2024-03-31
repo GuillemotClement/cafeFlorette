@@ -40,6 +40,8 @@ p{
     border-radius: 30px;
     font-weight: 700;
     font-size: 14px;
+    border: 0px;
+    cursor: pointer;
 }
 .btn-primary{
     background: white;
@@ -49,9 +51,23 @@ p{
     background-color: #222;
     color: white;
 }
+.btn-dark{
+    background: #222;
+    color: white;
+    
+}
+.btn-dark:hover{
+    background: white;
+    color: #222;
+    border: 1px solid #222;
+}
 .my-10{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .container{
     display: block;
@@ -117,7 +133,6 @@ p{
     line-height: 1.9em;
 }
 
-
 /* FEATURE */
 .features{
     padding: 100px 0;
@@ -127,4 +142,30 @@ p{
 .feature{
     float: left;
     width: 50%;
+}
+
+/* PERSON */
+.person{
+    height: 400px;
+    background: url(../img/person.jpg) center center/cover;
+}
+
+/* RESERVATION */
+.reservation{
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* FOOTER */
+footer{
+    background: #222;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0px;
+}
+.copyright-name{
+    font-weight: 700;
 }
